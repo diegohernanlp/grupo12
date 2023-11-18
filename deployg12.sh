@@ -166,7 +166,7 @@ DISCORD="https://discord.com/api/webhooks/1169002249939329156/7MOorDwzym-yBUs3gp
 #fi
 
 # Cambia al directorio del repositorio
-cd "$1"
+#cd "$1"
 
 # Obtiene el nombre del repositorio
 REPO_NAME=$(basename $(git rev-parse --show-toplevel))
